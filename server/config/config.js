@@ -3,10 +3,10 @@ var rootPath =  path.normalize(__dirname + '/../../');
 
 module.exports = {
 	development: {
-		db: 'mongodb://ds045998.mongolab.com:45998/umami',
+		db: 'mongodb://localhost:27017/walking-skeleton',
 		dbSettings: {
-			user: 'umamiAdmin',
-			pass: 'passw0rd'
+			user: '',
+			pass: ''
 		},
 		rootPath: rootPath,
 		port: process.env.PORT || 8000
